@@ -12,29 +12,35 @@
     />
     <title>Launch Landing Page</title>
   </head>
+
   <body>
     <div class="container">
+      <!-- HEADER -->
       <header>
-        <a class="logo" href="/"
-          ><img src="assets/img/Company-logo.png" alt="Company-Logo"
-        /></a>
-        <button>ön sipariş</button>
+        <img src="assets/img/Company-logo.png" alt="logo" class="logo" />
+        <button class="preorder-btn grey">Ön Sipariş</button>
       </header>
-      <div class="hero">
+
+      <!-- HERO -->
+      <section class="hero">
         <div class="top-content">
           <h1>Typemaster Klavye</h1>
           <p>
             Bütçenizi zorlamadan üretkenliğinizi ve oyun deneyiminizi artırın.
             Yüksek kaliteli bir mekanik yazım deneyimine geçin.
           </p>
-          <button>ön sipariş</button>
-          <span>27 Mayıs'ta yayınlanacak</span>
+          <div class="cta">
+            <button class="preorder-btn orange">ön sipariş</button>
+            <span>27 Mayıs'ta yayınlanacak</span>
+          </div>
         </div>
-        <div class="images">
-          <img src="assets/img/keyboard-img.png" alt="keyboard-img" />
-          <img src="assets/img/keyboard-orange-img.png" alt="keyboard-img" />
-          <img src="assets/img/keyboard-img-2.png" alt="keyboard-img" />
+
+        <div class="images-container">
+          <img src="assets/img/keyboard-img.png" alt="keyboard" />
+          <img src="assets/img/keyboard-orange-img.png" alt="keyboard-orange" />
+          <img src="assets/img/keyboard-img-2.png" alt="keyboard-desk" />
         </div>
+
         <div class="bottom-content">
           <h2>Mekanik kablosuz Klavye</h2>
           <p>
@@ -43,11 +49,13 @@
             anahtar ve tuş takımı seçenekleri sunuyor.
           </p>
         </div>
-      </div>
-      <section class="featured">
+      </section>
+
+      <!-- FEATURES -->
+      <section class="features">
         <div class="card">
           <div class="icon">
-            <img src="assets/img/desktop-icon.png" alt="desktop-icon" />
+            <img src="assets/img/desktop-icon.png" alt="desktop" />
           </div>
           <h3>YÜKSEK UYUMLU</h3>
           <p>
@@ -59,7 +67,7 @@
 
         <div class="card">
           <div class="icon">
-            <img src="assets/img/bluetooth-icon.png" alt="bluetooth-icon" />
+            <img src="assets/img/bluetooth-icon.png" alt="bluetooth" />
           </div>
           <h3>BLUETOOTH İLE KABLOSUZ</h3>
           <p>
@@ -68,9 +76,10 @@
             bilgisayarınıza takmak.
           </p>
         </div>
+
         <div class="card">
           <div class="icon">
-            <img src="assets/img/battery-icon.png" alt="battery-icon" />
+            <img src="assets/img/battery-icon.png" alt="battery" />
           </div>
           <h3>YÜKSEK KAPASİTELİ PİL</h3>
           <p>
@@ -79,9 +88,10 @@
             arasında 40 saat kullanım süresinin keyfini çıkarın.
           </p>
         </div>
+
         <div class="card">
           <div class="icon">
-            <img src="assets/img/desktop-icon.png" alt="desktop-icon" />
+            <img src="assets/img/light-icon.png" alt="light" />
           </div>
           <h3>RGB AYDINLATMA MODLARI</h3>
           <p>
@@ -91,7 +101,11 @@
           </p>
         </div>
       </section>
-      <footer>Typemaster 2021 | Tüm Hakları Saklıdır</footer>
+
+      <!-- FOOTER -->
+      <footer>
+        <p><strong>Typemaster 2021</strong> | Tüm Hakları Saklıdır</p>
+      </footer>
     </div>
   </body>
 </html>
